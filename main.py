@@ -4,6 +4,7 @@
 # Lab Assignment: 02
 
 # This program determines the change in population by asking for the seconds between birth, death, and immigration. It also asks for the current population and future projection years. With this info, it calculates whether the population has increased or decreased within the given amount of future years.
+# Note for Mr. Zee: According to your grading, you didn't want int() functions as calculation. I removed them but kept them within the output.
 
 # DATA IN
 
@@ -12,15 +13,15 @@ Change in Population Calculator
 """)
 
 # Asks the user to input the amount of seconds in between each birth of someone
-SecondsBetweenBirth = int(input('Input the number of seconds between each birth: '))
+SecondsBetweenBirth = input('Input the number of seconds between each birth: ')
 # Asks the user to input the amount of seconds in between each death of someone
-SecondsBetweenDeath = int(input('Input the number of seconds between each death: '))
+SecondsBetweenDeath = input('Input the number of seconds between each death: ')
 # Asks the user to input the amount of seconds in between each immigration
-SecondsBetweenImmigration = int(input('Input the number of seconds between each immigration: '))
+SecondsBetweenImmigration = input('Input the number of seconds between each immigration: ')
 # Asks the user to input the current population of the country
-CurrentPopulation = int(input('Input the current population: '))
+CurrentPopulation = input('Input the current population: ')
 # Asks the user to input the number of years in the future projections
-FutureProjectionYears = int(input('Input the number of future projection years: '))
+FutureProjectionYears = input('Input the number of future projection years: ')
 
 
 # PROCESSING
