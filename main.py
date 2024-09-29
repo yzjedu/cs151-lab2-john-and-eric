@@ -3,6 +3,7 @@
 # Due Date: 9/25/24
 # Lab Assignment: 02
 
+# This program determines the change in population by asking for the seconds between birth, death, and immigration. It also asks for the current population and future projection years. With this info, it calculates whether the population has increased or decreased within the given amount of future years.
 
 # DATA IN
 
