@@ -11,10 +11,10 @@
 |Result |Description|
 |--------------|-----------------------------------------|
 | **YES-** | The purpose of the program is displayed |  
-| **YES-** | Passes test case #1|   
-| **YES-** | Passes test case #2|
-| **YES-** | Passes test case #3|    
-| **YES-** | Passes test case #4|   
+| **NO-** | Passes test case #1|   
+| **NO-** | Passes test case #2|
+| **NO-** | Passes test case #3|    
+| **NO-** | Passes test case #4|   
 | **YES-** | input prompts make sense and are clear|   
 | **YES-** | Runs without Python errors  |
 | **YES-** | Final population output as an integer|
@@ -29,6 +29,6 @@
 |**-NO**| Nothing is typecast to an int during calculation (fine at end for output or to typecast input as int)|
 
 ### Comments on the grading
-- There is no algorithm in algorithm document. 
+- The numbers are not type casted hence it does not pass the test.
 - Address all the NO in the feedback document. 
 ### Grade: R
